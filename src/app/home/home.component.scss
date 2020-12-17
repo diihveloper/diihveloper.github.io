@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-left: 2rem;
+  line-height: 1.2;
+}
+
+.foto {
+  border-radius: 50%;
+  max-width: 15vw;
+  min-width: 256px;
+  border: solid 5px var(--secondary-dark);
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo {
+  padding: 0 2rem;
+  max-width: 900px;
+
+  h1 {
+    font-size: 48px;
+  }
+
+  a {
+    color: var(--secondary);
+  }
+}

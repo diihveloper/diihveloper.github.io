@@ -1,0 +1,27 @@
+:host {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.wrap-skills {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 32px;
+  width: 100%;
+  border-bottom: solid 2px #EEE;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 1280px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 1600px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}

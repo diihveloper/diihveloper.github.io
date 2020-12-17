@@ -1,0 +1,12 @@
+<header>
+  <span>{{title}}</span>
+  <i [ngClass]="icon"></i>
+</header>
+<div class="wrap-bars" [ngStyle]="gridStyle">
+  <ng-container *ngFor="let bar of bars">
+    <div class="bar" [ngClass]="{filled:bar}"></div>
+  </ng-container>
+</div>
+<div class="description">
+  <ng-content></ng-content>
+</div>
