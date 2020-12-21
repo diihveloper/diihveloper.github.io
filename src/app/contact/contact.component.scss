@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.networks {
+  font-size: 22px;
+  display: flex;
+
+  a {
+    display: block;
+    margin: 1rem;
+    text-decoration: none;
+
+    i {
+      display: inline-block;
+      width: 1.5rem;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+  }
+}
